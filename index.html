@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/gh/N8Python/terrainzjs/terrainz.js"></script>
+    <title>Abstract Art</title>
+</head>
+
+<body>
+    <button id="genart">Generate Art</button><br> Width:
+    <input type="number" id="width" value="800"><br>Height: <input type="number" id="height" value="600">
+    <br> Scale: <input type="number" id="scale" value="200">
+    <br> Octaves (Higher = More Detail): <input type="number" id="octaves" value="16">
+    <br> Persistance (Amount of Detail): <input type="number" id="persistance" value="0.5">
+    <br> Lacunarity (Intricacies of Detail): <input type="number" id="lacunarity" value="1">
+    <br>
+    <br>
+    <canvas id="canvas" width="800px" height="600px"></canvas>
+    <script src="main.js"></script>
+</body>
+
+</html>
